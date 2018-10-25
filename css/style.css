@@ -135,8 +135,8 @@ a {
 }
 
 .title {
-    display: block;
     padding: 4rem 0 2.5rem;
+    width: 100%;
 }
 
     .title__subtitle {
@@ -161,7 +161,7 @@ a {
         margin: 0 0 1rem;
 
         font-size: 1.25rem;
-        width: 28rem;
+        width: 50%;
     }
 
         @media screen and (max-width: 1023px) {
@@ -189,7 +189,12 @@ a {
                 margin: 0;
             }
 
+            .title__big-title {
+                font-size: 2rem;
+            }
+
             .title__description {
+                width: 100%;
                 font-size: 1.125rem;
             }
         }
@@ -287,24 +292,14 @@ a {
     }
 
     .card__elem {
-        width: 30rem;
+        width: 100%;
     }
 
     .card__elem-cover {
-        width: 30rem;
+        width: 100%;
     }
 
 }
-
-            @media screen and (max-width: 479px) {
-                .card__elem {
-                    width: 20rem;
-                }
-
-                .card__elem-cover {
-                    width: 20rem;
-                }
-            }
 
 /* Styles for footer's text */
 .footer {
