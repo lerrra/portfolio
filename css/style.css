@@ -64,6 +64,12 @@ a {
                 width: 7rem;
                 margin-right: 1rem;
             }
+
+            @media screen and (max-width: 320px) {
+                .bio__photo {
+                    display: none;
+                }
+            }
         }
 
     .bio__info {
@@ -155,6 +161,7 @@ a {
 
         font-size: 3rem;
         font-weight: 700;
+        max-width: 100%;
     }
 
     .title__description {
@@ -179,6 +186,7 @@ a {
             }
         }
 
+
         @media screen and (max-width: 479px) {
             .title {
                 padding: 2rem 0;
@@ -191,6 +199,7 @@ a {
 
             .title__big-title {
                 font-size: 2rem;
+                line-height: 1.2;
             }
 
             .title__description {
@@ -206,12 +215,13 @@ a {
     flex-flow: row nowrap;
 
     width: 100%;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 
     .card__elem {
         display: flex;
         flex-flow: column;
+        padding-bottom: 1rem;
 
         width: 16rem;
         height: auto;
