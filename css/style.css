@@ -127,8 +127,13 @@ a {
 
     .menu__item {
         font-size: 1.25rem;
+        line-height: 1;
         font-weight: 700;
         border-bottom: none;
+    }
+
+    .menu__item:hover {
+        border-bottom: solid 1px #0091ea;
     }
 
 
