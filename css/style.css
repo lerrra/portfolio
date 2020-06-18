@@ -232,6 +232,11 @@ a {
         height: auto;
     }
 
+    .card__elem:hover {
+        transform: scale(1.05);
+        transition: all 0.3s;
+    }
+
         .card__elem-cover {
             display: flex;
 
@@ -265,7 +270,6 @@ a {
     }
 
 }
-
             @media screen and (max-width: 1023px) {
                 .card__elem {
                     width: 12rem;
